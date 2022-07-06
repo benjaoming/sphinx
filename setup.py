@@ -37,6 +37,7 @@ extras_require = {
     ],
     'docs': [
         'sphinxcontrib-websupport',
+        'furo',
     ],
     'lint': [
         'flake8>=3.5.0',
