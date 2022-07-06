@@ -8,7 +8,7 @@ import sphinx
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo',
               'sphinx.ext.autosummary', 'sphinx.ext.extlinks',
               'sphinx.ext.intersphinx',
-              'sphinx.ext.viewcode', 'sphinx.ext.inheritance_diagram']
+              'sphinx.ext.viewcode', 'sphinx.ext.inheritance_diagram', 'sphinx_immaterial']
 
 root_doc = 'contents'
 templates_path = ['_templates']
@@ -20,7 +20,7 @@ version = sphinx.__display_version__
 release = version
 show_authors = True
 
-html_theme = 'sphinx13'
+html_theme = 'sphinx_immaterial'
 html_theme_path = ['_themes']
 modindex_common_prefix = ['sphinx.']
 html_static_path = ['_static']

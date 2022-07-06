@@ -37,6 +37,7 @@ extras_require = {
     ],
     'docs': [
         'sphinxcontrib-websupport',
+        'sphinx-immaterial',
     ],
     'lint': [
         'flake8>=3.5.0',
