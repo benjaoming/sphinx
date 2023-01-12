@@ -19,4 +19,8 @@ Changelog
    \makeatother
 
 
+.. seealso::
+
+   For a complete overview of deprecations, see :doc:`the reference of deprecated interfaces <extdev/deprecated>`
+
 .. include:: ../CHANGES
